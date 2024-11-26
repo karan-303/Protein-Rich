@@ -88,7 +88,7 @@
 
 @media (max-width: 1024px) {
     #factbox{
-        height: 25%;
+        height: 40%;
         width: 35%;
     }
     #front-page {
@@ -116,10 +116,10 @@
     }
 
     #dialogue-box {
-        height: 72%;
+        height: 50%;
         top: 10%;
-        left: 35%;
-        width: 36%;
+        left: 21%;
+        width: 60%;
     }
 }
 
@@ -145,7 +145,7 @@
     }
 
     #dialogue-box {
-        height: 60%;
+        height: 70%;
         width: 80%;
         top: 10%;
         left: 10%;
@@ -375,7 +375,7 @@
     }
 
     #dialogue-box {
-        height: 60%;
+        height: 68%;
         width: 90%;
         margin: auto;
         margin-left: -20%;
