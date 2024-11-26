@@ -1,15 +1,23 @@
 /* Media queries for responsiveness */
 @media (max-width: 1440px) {
+    #factbox{
+        height: 150px;
+        width: 200px;
+    }
 
     #board {
         width: 50%;
         height: 70%;
         margin-top: 10%;
+/*         border: 2px solid red;
+ */    }
+    #timer_call{
+       
     }
 
-    #dialogue-box {
+    /* #dialogue-box {
         height: 40%;
-    }
+    } */
 
     #front-page {
         height: 70%;
@@ -71,6 +79,10 @@
 }
 
 @media (max-width: 1024px) {
+    #factbox{
+        height: 100px;
+        width: 150px;
+    }
     #front-page {
         width: 75%;
         padding: 30px;
@@ -96,11 +108,15 @@
     }
 
     #dialogue-box {
+        height: 50%;
         top: 30%;
     }
 }
 
 @media (max-width: 768px) {
+    #factbox{
+        width: 145px;
+    }
     .rules-box {
         width: 85%;
         padding: 6%;
@@ -118,6 +134,7 @@
     }
 
     #dialogue-box {
+        height: 50%;
         width: 50%;
     }
 
@@ -199,11 +216,16 @@
         height: 50%;
         margin: auto;
         margin-left: -18%;
+        overflow: hidden;
     }
 
     #timer_call {
         margin-top: 14%;
         margin-bottom: 5%;
+    }
+    #factbox{
+        height: 80px;
+        width: 150px;
     }
 
 
@@ -211,6 +233,10 @@
 }
 
 @media (max-width: 428px) {
+    #factbox{
+        height: 90px;
+        width: 140px;
+    }
     #front-page {
         width: 90%;
         padding: 15px;
@@ -260,10 +286,10 @@
     }
 
     #dialogue-box {
-        width: 80%;
-        height: 50%;
+        width: 90%;
+        height: 60%;
         margin: auto;
-        margin-left: -18%;
+        margin-left: -23%;
     }
 
     #timer_call {
@@ -279,6 +305,10 @@
 }
 
 @media (max-width: 390px) {
+    #factbox{
+        height: 80px;
+        width: 125px;
+    }
     #front-page {
         width: 90%;
         padding: 15px;
@@ -328,9 +358,10 @@
     }
 
     #dialogue-box {
-        width: 80%;
+        height: 55%;
+        width: 90%;
         margin: auto;
-        margin-left: -18%;
+        margin-left: -23%;
     }
 
     #timer_call {
@@ -341,6 +372,10 @@
     #ncert_img {
         /* border: 2px solid red; */
         width: 15%;
+    }
+    #factbox{
+        height: 130px;
+        width: 200px;
     }
 
 }
